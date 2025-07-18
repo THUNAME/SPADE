@@ -1,0 +1,21 @@
+# from corse granularity to fine granularity
+granuls: ['busi2', 'asn', 'bgp']
+
+# chunksize of `input file`
+chunksize: 100000
+
+# number of services to be predicted for each port
+budget: 10
+
+# number of process workers will be utilized in ServiceSeer
+num_workers: 64
+
+save_dirname:
+    # raw data -> input data [DIR]
+    input: 'input'
+
+    # all models [DIR]
+    model: 'model'
+
+    # output results [DIR]
+    output: 'output'
