@@ -8,7 +8,7 @@ def _get_curr_logger():
     global logger
     if logger is None:
         # create logger
-        logger = logging.getLogger("ServicePred")
+        logger = logging.getLogger("SPADE")
         logger.setLevel(logging.DEBUG)
         hdr = logging.StreamHandler(sys.stdout)
         hdr.setLevel(logging.DEBUG)
