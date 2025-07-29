@@ -1,10 +1,10 @@
-# ServiceSeer: "Divide, Predict, Conquer: Adaptive Internet-wide Service Discovery with Limited Seeds"
+# SPADE: "Divide, Predict, Conquer: Adaptive Internet-wide Service Discovery with Limited Seeds"
 
 ## File Description
 
 -   `spl_main.py`: main script of sampling seeds for a given dataset
--   `rec_main.py`: main script of running ServiceSeer
--   `conf.yaml`: config file of ServiceSeer
+-   `rec_main.py`: main script of running SPADE
+-   `conf.yaml`: config file of SPADE
 
 ## Environment
 
@@ -28,7 +28,7 @@ Examples:
 1. `python spl_main.py -i "./datasets/ipv4" -o "./ipv4.csv" -c "conf.yaml" -r 0.01`
 2. `python rec_main.py -i "./datasets/ipv4" -o "./results/ipv4" -c "conf.yaml" -s "./ipv4.csv"`
 
-## Datasets of ServiceSeer
+## Datasets of SPADE
 
 ### Offline Datasets
 
@@ -48,7 +48,7 @@ This data is only allowed to be used for academic research. Any form of commerci
 
 #### Acquisition Method
 
-If you need to obtain the data, please send an email to [blindreviewanon@163.com] using your academic institution email. The email subject should indicate: ServiceSeer [Dataset] Application for Academic Use - [Applicant's Name] - [Affiliated Institution]. The content of the email should include the following information:
+If you need to obtain the data, please send an email to [blindreviewanon@163.com] using your academic institution email. The email subject should indicate: SPADE [Dataset] Application for Academic Use - [Applicant's Name] - [Affiliated Institution]. The content of the email should include the following information:
 
 -   Applicant's name, affiliated academic institution, and title/identity (such as graduate student, researcher, etc.).
 -   Specific research project name, research purpose, and brief content for which the data is planned to be used.
