@@ -3,7 +3,7 @@
 ## File Description
 
 -   `spl_main.py`: main script of sampling seeds for a given dataset
--   `rec_main.py`: main script of running SPADE
+-   `rec_main.py`: main script for running SPADE
 -   `conf.yaml`: config file of SPADE
 
 ## Environment
@@ -15,13 +15,13 @@
 
 > Recommend conda environment or venv
 
-Run the following commands in turn at bash or shell
+Run the following commands in turn at the bash or shell
 
 1. `pip install -r requirements.txt`
 2. `python spl_main.py -i <raw dataset dirpath> -o <saving path of sampled seeds> -c <config filepath> -r <maximum sampling ratio>`
 3. `python rec_main.py -i <raw dataset dirpath> -o <saving dirpath of results> -c <config filepath> -s <sampled seeds filepath>`
 
-All result will be saved in `<saving dirpath of results>`
+All results will be saved in `<saving dirpath of results>`
 
 Examples:
 
@@ -48,11 +48,11 @@ This data is only allowed to be used for academic research. Any form of commerci
 
 #### Acquisition Method
 
-If you need to obtain the data, please send an email to [blindreviewanon@163.com] using your academic institution email. The email subject should indicate: SPADE [Dataset] Application for Academic Use - [Applicant's Name] - [Affiliated Institution]. The content of the email should include the following information:
+If you need to obtain the data, please send an email to [cdg22@mails.tsinghua.edu.cn] using your academic institution email. The email subject should indicate: SPADE [Dataset] Application for Academic Use - [Applicant's Name] - [Affiliated Institution]. The content of the email should include the following information:
 
 -   Applicant's name, affiliated academic institution, and title/identity (such as graduate student, researcher, etc.).
 -   Specific research project name, research purpose, and brief content for which the data is planned to be used.
--   The required data scale, including the quantity, scope and specific types of data needed.
+-   The required data scale, including the quantity, scope, and specific types of data needed.
 -   A commitment to using the data solely for academic research and not for commercial use or illegal dissemination.
 
 #### Review Process
@@ -63,4 +63,4 @@ We will review the email within 7 working days after receiving it. After the rev
 
 Since these data are sensitive to some of the probed networks, if it is found that the data user violates the agreement of academic use, we have the right to terminate the data usage authorization immediately and reserve the right to pursue legal liability. The data user shall bear all relevant responsibilities arising from the use of the data, and our side shall not be responsible for any problems that may occur during the data usage process.
 
-We are committed to promoting academic cooperation and knowledge progress. Thank you for your understanding and cooperation! If you have any questions, please feel free to contact us at [blindreviewanon@163.com].
+We are committed to promoting academic cooperation and knowledge progress. Thank you for your understanding and cooperation! If you have any questions, please feel free to contact us at [cdg22@mails.tsinghua.edu.cn].
